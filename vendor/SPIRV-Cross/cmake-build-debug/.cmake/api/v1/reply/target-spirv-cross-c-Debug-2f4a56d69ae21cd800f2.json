@@ -1,0 +1,303 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libspirv-cross-cd.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"spirv_cross_add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 318,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 313,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 309,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_SPIRV_CROSS_GIT_VERSION"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SPIRV_CROSS_C_API_CPP=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SPIRV_CROSS_C_API_GLSL=1"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SPIRV_CROSS_C_API_HLSL=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SPIRV_CROSS_C_API_MSL=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "SPIRV_CROSS_C_API_REFLECT=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "E:/Asura/vendor/SPIRV-Cross"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "E:/Asura/vendor/SPIRV-Cross/cmake-build-debug"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "spirv-cross-core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "spirv-cross-reflect::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "spirv-cross-msl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "spirv-cross-glsl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "spirv-cross-cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "spirv-cross-hlsl::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "spirv-cross-c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/SPIRV-Cross"
+		}
+	},
+	"name" : "spirv-cross-c",
+	"nameOnDisk" : "libspirv-cross-cd.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "spirv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "spirv_cross_c.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "spirv_cross_c.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

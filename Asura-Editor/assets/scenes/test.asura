@@ -1,0 +1,162 @@
+Scene: Untitled
+Entities:
+  - Entity: 17111323533741059864
+    TagComponent:
+      Tag: perspective camera
+    TransformComponent:
+      Translation: [0, 0, 10]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 0
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+  - Entity: 13658354223163064273
+    TagComponent:
+      Tag: square1
+    TransformComponent:
+      Translation: [0.976966441, 2.11888504, -0.126098633]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [0.722007751, 0.220226318, 0.720070601, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    Rigidbody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Radius: 0.5
+      Density: 1
+      Friction: 0.100000001
+      Restitution: 0.300000012
+      RestitutionThreshold: 0.5
+  - Entity: 13036043957906331001
+    TagComponent:
+      Tag: square2
+    TransformComponent:
+      Translation: [-1.71367908, 1.83601773, -0.0668334961]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [0.969111979, 0.713690937, 0.190829024, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    Rigidbody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    CircleCollider2DComponent:
+      Offset: [0, 0]
+      Radius: 0.5
+      Density: 1
+      Friction: 0.100000001
+      Restitution: 0.689999998
+      RestitutionThreshold: 0
+  - Entity: 9470763542324866876
+    TagComponent:
+      Tag: floor
+    TransformComponent:
+      Translation: [-0.14685744, -2.43365955, 0]
+      Rotation: [0, 0, 0]
+      Scale: [100, 0.300000012, 1]
+    SpriteRendererComponent:
+      Color: [0, 0.542329431, 0.65637064, 1]
+      TilingFactor: 1
+    Rigidbody2DComponent:
+      BodyType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 1
+      RestitutionThreshold: 0.5
+  - Entity: 4716320755333499378
+    TagComponent:
+      Tag: quad3
+    TransformComponent:
+      Translation: [3.1647296, -1.88567269, -6.10355346e-05]
+      Rotation: [0, 0, 0.0196482539]
+      Scale: [0.767999887, 0.767999887, 2.55999994]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: E:/Asura/Asura-Editor/assets\textures\dog.png
+      TilingFactor: 1
+    Rigidbody2DComponent:
+      BodyType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.600000024
+      RestitutionThreshold: 0.5
+  - Entity: 7786670317358964523
+    TagComponent:
+      Tag: quad2
+    TransformComponent:
+      Translation: [-2.85928941, -1.78092074, 6.10347925e-05]
+      Rotation: [0, 0, 0.00398169644]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: E:/Asura/Asura-Editor/assets\textures\dog.png
+      TilingFactor: 1
+    Rigidbody2DComponent:
+      BodyType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.100000001
+      Restitution: 0
+      RestitutionThreshold: 0.5
+  - Entity: 12162443246076128711
+    TagComponent:
+      Tag: quad1
+    TransformComponent:
+      Translation: [-0.248825073, 1.82271469, 0]
+      Rotation: [0, 0, 0.244506836]
+      Scale: [0.999998987, 0.999998987, 1]
+    SpriteRendererComponent:
+      Color: [0.087342158, 0.837837815, 0.550968707, 1]
+      TilingFactor: 1
+    Rigidbody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.100000001
+      Restitution: 0.5
+      RestitutionThreshold: 0.5
+  - Entity: 4182662280819118204
+    TagComponent:
+      Tag: orthographics camera
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.100000001
+        PerspectiveFar: 1000
+        OrthographicSize: 10
+        OrthographicNear: -1
+        OrthographicFar: 1
+      Primary: false
+      FixedAspectRatio: false

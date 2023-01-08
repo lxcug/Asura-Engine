@@ -1,0 +1,20 @@
+# ninja log v5
+26	1118	6891641180360821	CMakeFiles/spirv-cross-util.dir/spirv_cross_util.cpp.obj	e978cb951e188dc2
+1	1450	6891641183697953	CMakeFiles/spirv-cross-core.dir/spirv_cfg.cpp.obj	550fc613a97578e9
+19	3030	6891641199488155	CMakeFiles/spirv-cross-cpp.dir/spirv_cpp.cpp.obj	44640f47baa9eb46
+16	3308	6891641202267309	CMakeFiles/spirv-cross-reflect.dir/spirv_reflect.cpp.obj	7e3a6d217c042015
+3309	3369	6891641202890691	libspirv-cross-reflect.a	765872b52b619e11
+3	3442	6891641203609308	CMakeFiles/spirv-cross-core.dir/spirv_cross_parsed_ir.cpp.obj	1a7f0ecdfc3aa65e
+7	3964	6891641208831737	CMakeFiles/spirv-cross-core.dir/spirv_parser.cpp.obj	8f1ea1019d01f8bc
+1451	6282	6891641231998538	CMakeFiles/spirv-cross.dir/main.cpp.obj	4a4e037162af554
+10	6684	6891641236030917	CMakeFiles/spirv-cross-core.dir/spirv_cross.cpp.obj	d3e7b932d3a336a
+6684	6745	6891641236649340	libspirv-cross-core.a	fd762e37125cc828
+6745	6788	6891641237085230	libspirv-cross-util.a	1a51d63f4ae0f9c6
+1119	10755	6891641276722571	CMakeFiles/spirv-cross-hlsl.dir/spirv_hlsl.cpp.obj	9d3fc04c10d3527b
+13	17414	6891641343317840	CMakeFiles/spirv-cross-glsl.dir/spirv_glsl.cpp.obj	eb806bd80d10f914
+17415	17505	6891641344248301	libspirv-cross-glsl.a	31e7a476b73b4d7c
+17505	17552	6891641344712038	libspirv-cross-cpp.a	603e32fa88752a2d
+17507	17574	6891641344931701	libspirv-cross-hlsl.a	717c1cf59be29d38
+22	20913	6891641378284586	CMakeFiles/spirv-cross-msl.dir/spirv_msl.cpp.obj	e4aefb8eba870617
+20913	21024	6891641379435402	libspirv-cross-msl.a	77f28b658316cf21
+21024	21287	6891641382000072	spirv-cross.exe	16b4932353aa4567

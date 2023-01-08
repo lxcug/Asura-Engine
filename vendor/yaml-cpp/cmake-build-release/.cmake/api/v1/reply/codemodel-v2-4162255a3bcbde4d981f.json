@@ -1,0 +1,125 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-72814690e6cbe4e77ea5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "util",
+					"jsonFile" : "directory-util-Release-88dfab35cbcc10198186.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "util",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "YAML_CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-format-Release-701d0057aca67dff1d92.json",
+					"name" : "format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d349585250c73399e467.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-Release-b1d55a3756970615f340.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yaml-cpp-parse::@5865449b717dd869d2cd",
+					"jsonFile" : "target-yaml-cpp-parse-Release-0c149f673e555b08a552.json",
+					"name" : "yaml-cpp-parse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yaml-cpp-read::@5865449b717dd869d2cd",
+					"jsonFile" : "target-yaml-cpp-read-Release-fdd21b0ec8887e96bc51.json",
+					"name" : "yaml-cpp-read",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yaml-cpp-sandbox::@5865449b717dd869d2cd",
+					"jsonFile" : "target-yaml-cpp-sandbox-Release-35f3181b14de4f3499e5.json",
+					"name" : "yaml-cpp-sandbox",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Asura/vendor/yaml-cpp/cmake-build-release",
+		"source" : "E:/Asura/vendor/yaml-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

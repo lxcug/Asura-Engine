@@ -1,0 +1,567 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"spirv_cross_add_library"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 286,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 296,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 445,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-core.a"
+			],
+			"targetId" : "spirv-cross-core::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"GLSL.std.450.h",
+				"spirv_common.hpp",
+				"spirv_cross_containers.hpp",
+				"spirv_cross_error_handling.hpp",
+				"spirv.hpp",
+				"spirv_cross.hpp",
+				"spirv_parser.hpp",
+				"spirv_cross_parsed_ir.hpp",
+				"spirv_cfg.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_core/cmake",
+			"exportName" : "spirv_cross_coreConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-core::@6890427a1f51a3e7e1df",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_core/cmake/spirv_cross_coreConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-glsl.a"
+			],
+			"targetId" : "spirv-cross-glsl::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_glsl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_glsl/cmake",
+			"exportName" : "spirv_cross_glslConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-glsl::@6890427a1f51a3e7e1df",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_glsl/cmake/spirv_cross_glslConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-cpp.a"
+			],
+			"targetId" : "spirv-cross-cpp::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_cpp.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_cpp/cmake",
+			"exportName" : "spirv_cross_cppConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-cpp::@6890427a1f51a3e7e1df",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_cpp/cmake/spirv_cross_cppConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-reflect.a"
+			],
+			"targetId" : "spirv-cross-reflect::@6890427a1f51a3e7e1df",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_reflect.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_reflect/cmake",
+			"exportName" : "spirv_cross_reflectConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-reflect::@6890427a1f51a3e7e1df",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_reflect/cmake/spirv_cross_reflectConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-msl.a"
+			],
+			"targetId" : "spirv-cross-msl::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_msl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_msl/cmake",
+			"exportName" : "spirv_cross_mslConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-msl::@6890427a1f51a3e7e1df",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_msl/cmake/spirv_cross_mslConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-hlsl.a"
+			],
+			"targetId" : "spirv-cross-hlsl::@6890427a1f51a3e7e1df",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_hlsl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_hlsl/cmake",
+			"exportName" : "spirv_cross_hlslConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-hlsl::@6890427a1f51a3e7e1df",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_hlsl/cmake/spirv_cross_hlslConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-util.a"
+			],
+			"targetId" : "spirv-cross-util::@6890427a1f51a3e7e1df",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv_cross_util.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_util/cmake",
+			"exportName" : "spirv_cross_utilConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-util::@6890427a1f51a3e7e1df",
+					"index" : 8
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_util/cmake/spirv_cross_utilConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libspirv-cross-c.a"
+			],
+			"targetId" : "spirv-cross-c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/spirv_cross",
+			"paths" : 
+			[
+				"spirv.h",
+				"spirv_cross_c.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/spirv_cross_c/cmake",
+			"exportName" : "spirv_cross_cConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-cross-c::@6890427a1f51a3e7e1df",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/spirv_cross_c/cmake/spirv_cross_cConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"spirv-cross.exe"
+			],
+			"targetId" : "spirv-cross::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

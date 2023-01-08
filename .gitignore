@@ -1,0 +1,6 @@
+# clion
+.idea
+
+build/
+!build/*.dll
+!build/*.lib

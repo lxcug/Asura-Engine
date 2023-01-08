@@ -1,0 +1,165 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libspirv-cross-reflect.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"spirv_cross_add_library",
+			"install",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "E:/Asura/vendor/SPIRV-Cross"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "spirv-cross-reflect::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/SPIRV-Cross"
+		}
+	},
+	"name" : "spirv-cross-reflect",
+	"nameOnDisk" : "libspirv-cross-reflect.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "spirv_reflect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "spirv_reflect.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

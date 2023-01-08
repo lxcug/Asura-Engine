@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-57fbf57cb7eb3c40b044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SPIRV-Cross",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-Release-9de950559e13416c8cba.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-c-Release-610deded1492e3953b1e.json",
+					"name" : "spirv-cross-c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-core-Release-65dfc047805a34abd56a.json",
+					"name" : "spirv-cross-core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-cpp-Release-096daa03eb3934f7680d.json",
+					"name" : "spirv-cross-cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-glsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-glsl-Release-ca4350872df1824e2dcd.json",
+					"name" : "spirv-cross-glsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-hlsl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-hlsl-Release-ff3fa148e00a26a7b200.json",
+					"name" : "spirv-cross-hlsl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-msl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-msl-Release-41051fc9b674e40fa066.json",
+					"name" : "spirv-cross-msl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-reflect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-reflect-Release-181035ae496ed8a0bff9.json",
+					"name" : "spirv-cross-reflect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spirv-cross-util::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spirv-cross-util-Release-bfe83198eea195e4e694.json",
+					"name" : "spirv-cross-util",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Asura/vendor/SPIRV-Cross/cmake-build-release",
+		"source" : "E:/Asura/vendor/SPIRV-Cross"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

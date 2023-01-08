@@ -1,6 +1,6 @@
 # Asura Game Engine
 
-## 1. Composition of The Engine
+## 1. Composition of the Engine
 
 1. Event System.
 2. Use the conception of **Layer**, all the layers is placed in **LayerStack**, so all the layers will be rendered in order, so as to the order in which events are processed.
@@ -13,7 +13,7 @@
 8. Editor(Based on ImGui and ImGuizmo).
 9. Physical Engine(Based on box2d).
 
-## 2. Demonstrate of Asura-Editor
+## 2. Demonstration of Asura-Editor
 
 **Asura-Editor**
 

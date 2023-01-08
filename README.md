@@ -1,6 +1,6 @@
 # Asura Game Engine
 
-## 1. Composition of Engine
+## 1. Composition of The Engine
 
 1. Event System.
 2. Use the conception of **Layer**, all the layers is placed in **LayerStack**, so all the layers will be rendered in order, so as to the order in which events are processed.

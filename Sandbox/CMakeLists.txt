@@ -8,7 +8,7 @@ include_directories(${PROJECT_SOURCE_DIR}/vendor/imgui)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include/glad)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/entt/include)
-include_directories(${PROJECT_SOURCE_DIR}/vendor/yaml-cpp/include)
+include_directories(${PROJECT_SOURCE_DIR}/vendor/YAML_CPP/include)
 include_directories(D:/VulKanSDK/Include)
 include_directories(D:/VulKanSDK/Include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/box2d/include)
@@ -54,23 +54,22 @@ add_executable(Sandbox
 
 add_custom_command(TARGET Sandbox POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        "${PROJECT_SOURCE_DIR}/build/libAsura.dll.a"
-        ${PROJECT_SOURCE_DIR}/build/Sandbox)
+        "${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll.a"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Sandbox)
 add_custom_command(TARGET Sandbox POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        "${PROJECT_SOURCE_DIR}/build/libAsura.dll"
-        ${PROJECT_SOURCE_DIR}/build/Sandbox)
+        "${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Sandbox)
+add_custom_command(TARGET Sandbox POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${PROJECT_SOURCE_DIR}/vendor/glew/glfw3.dll"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Sandbox)
 
-#add_custom_command(TARGET Sandbox POST_BUILD
-#        COMMAND ${CMAKE_COMMAND} -E copy_if_different
-#        "${PROJECT_SOURCE_DIR}/build/libAsura.a"
-#        ${PROJECT_SOURCE_DIR}/build/Sandbox)
 
 # link Asura dll
 target_link_libraries(Sandbox
-        ${ASURA}
-        ${GLEW}
-        E:/Asura/build/Sandbox/glfw3.dll
+        ${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll.a
+        ${PROJECT_SOURCE_DIR}/vendor/glew/glfw3.dll
         opengl32.dll
         )
 

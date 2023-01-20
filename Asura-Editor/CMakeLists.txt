@@ -8,7 +8,7 @@ include_directories(${PROJECT_SOURCE_DIR}/vendor/imgui)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include/glad)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/entt/include)
-include_directories(${PROJECT_SOURCE_DIR}/vendor/yaml-cpp/include)
+include_directories(${PROJECT_SOURCE_DIR}/vendor/YAML_CPP/include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/ImGuizmo)
 include_directories(D:/VulKanSDK/Include)
 include_directories(D:/VulKanSDK/Include)
@@ -53,19 +53,22 @@ add_executable(Asura-Editor
 
 add_custom_command(TARGET Asura-Editor POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        "${PROJECT_SOURCE_DIR}/build/libAsura.dll.a"
-        ${PROJECT_SOURCE_DIR}/build/Asura-Editor)
+        "${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll.a"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Asura-Editor)
 add_custom_command(TARGET Asura-Editor POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        "${PROJECT_SOURCE_DIR}/build/libAsura.dll"
-        ${PROJECT_SOURCE_DIR}/build/Asura-Editor)
+        "${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Asura-Editor)
+add_custom_command(TARGET Asura-Editor POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${PROJECT_SOURCE_DIR}/vendor/glew/glfw3.dll"
+        ${PROJECT_SOURCE_DIR}/cmake-build-release/Asura-Editor)
 
 
 # link Asura dll
 target_link_libraries(Asura-Editor
-        E:/Asura/build/Asura-Editor/glfw3.dll
-        ${ASURA}
-        ${GLEW}
+        ${PROJECT_SOURCE_DIR}/vendor/GLFW/lib-mingw-w64/glfw3.dll
+        ${PROJECT_SOURCE_DIR}/vendor/Asura/libAsura.dll.a
         opengl32.dll
         )
 

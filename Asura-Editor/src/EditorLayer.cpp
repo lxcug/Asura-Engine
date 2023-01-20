@@ -16,7 +16,8 @@ Asura::EditorLayer::EditorLayer(): Asura::Layer("Editor Layer") {
     Asura::FrameBufferSpecification spec;
     spec.Width = 1280;
     spec.Height = 720;
-    spec.Attachments = {Asura::FrameBufferTextureFormat::RGBA8, Asura::FrameBufferTextureFormat::RED_INTEGER,
+    spec.Attachments = {Asura::FrameBufferTextureFormat::RGBA8,
+                        Asura::FrameBufferTextureFormat::RED_INTEGER,
                         Asura::FrameBufferTextureFormat::Depth};
     m_frameBuffer = Asura::FrameBuffer::createFrameBuffer(spec);
 }

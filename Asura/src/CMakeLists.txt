@@ -10,7 +10,7 @@ include_directories(${PROJECT_SOURCE_DIR}/vendor/imgui)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/Glad/include/glad)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/entt/include)
-include_directories(${PROJECT_SOURCE_DIR}/vendor/yaml-cpp/include)
+include_directories(${PROJECT_SOURCE_DIR}/vendor/YAML_CPP/include)
 include_directories(D:/VulKanSDK/Include)
 include_directories(${PROJECT_SOURCE_DIR}/vendor/box2d/include)
 
@@ -19,7 +19,7 @@ file(GLOB_RECURSE LIB_SOURCES
         ${PROJECT_SOURCE_DIR}/Asura/src/*.cpp
         )
 
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/vendor/Asura)
 
 MESSAGE(STATUS "lib sources" ${LIB_SOURCES})
 
@@ -43,24 +43,20 @@ add_library(${TARGET} SHARED ${LIB_SOURCES}
 target_link_libraries(${TARGET}
         ${PROJECT_SOURCE_DIR}/vendor/GLFW/lib-mingw-w64/glfw3.dll
         opengl32.dll
-        ${YAML}
+        ${PROJECT_SOURCE_DIR}/vendor/YAML_CPP/lib/libyaml-cpp.a
 
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-core.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-cpp.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-glsl.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-hlsl.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-msl.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-reflect.a
-        ${PROJECT_SOURCE_DIR}/build/VulKan/libspirv-cross-util.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-core.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-cpp.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-glsl.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-hlsl.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-msl.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-reflect.a
+        ${PROJECT_SOURCE_DIR}/vendor/VulKan/libspirv-cross-util.a
 
-        ${PROJECT_SOURCE_DIR}/build/shaderc_shared.lib
-        ${PROJECT_SOURCE_DIR}/build/shaderc_shared.dll
+        ${PROJECT_SOURCE_DIR}/vendor/shaderc/shaderc_shared.lib
+        ${PROJECT_SOURCE_DIR}/vendor/shaderc/shaderc_shared.dll
 
-        ${PROJECT_SOURCE_DIR}/build/Box2d/libbox2d.a
-        ${PROJECT_SOURCE_DIR}/build/Box2d/libglad.a
-        ${PROJECT_SOURCE_DIR}/build/Box2d/libglfw.a
-        ${PROJECT_SOURCE_DIR}/build/Box2d/libimgui.a
-        ${PROJECT_SOURCE_DIR}/build/Box2d/libsajson.a
+        ${PROJECT_SOURCE_DIR}/vendor/box2d/lib/libbox2d.a
         )
 
 # macros

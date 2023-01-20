@@ -1,0 +1,20 @@
+B:\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/1 installation path/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S E:\Asura-Engine -B E:\Asura-Engine\cmake-build-release
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: B:/mingw64_2/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: B:/mingw64_2/mingw64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- lib sourcesE:/Asura-Engine/Asura/src/Asura/Core/Application.cppE:/Asura-Engine/Asura/src/Asura/Core/GUID.cppE:/Asura-Engine/Asura/src/Asura/Core/Layer.cppE:/Asura-Engine/Asura/src/Asura/Core/LayerStack.cppE:/Asura-Engine/Asura/src/Asura/Core/Log.cppE:/Asura-Engine/Asura/src/Asura/Core/Timer.cppE:/Asura-Engine/Asura/src/Asura/Core/Timestep.cppE:/Asura-Engine/Asura/src/Asura/Core/Window.cppE:/Asura-Engine/Asura/src/Asura/Debug/Instrumentor.cppE:/Asura-Engine/Asura/src/Asura/Events/ApplicationEvent.cppE:/Asura-Engine/Asura/src/Asura/Events/Event.cppE:/Asura-Engine/Asura/src/Asura/Events/KeyEvent.cppE:/Asura-Engine/Asura/src/Asura/Events/MouseEvent.cppE:/Asura-Engine/Asura/src/Asura/Math/Math.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Buffer.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Camera.cppE:/Asura-Engine/Asura/src/Asura/Renderer/EditorCamera.cppE:/Asura-Engine/Asura/src/Asura/Renderer/FrameBuffer.cppE:/Asura-Engine/Asura/src/Asura/Renderer/GraphicsContex.cppE:/Asura-Engine/Asura/src/Asura/Renderer/OrthographicCamera.cppE:/Asura-Engine/Asura/src/Asura/Renderer/OrthographicCameraController.cppE:/Asura-Engine/Asura/src/Asura/Renderer/RenderCommand.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Renderer.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Renderer2D.cppE:/Asura-Engine/Asura/src/Asura/Renderer/RendererAPI.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Shader.cppE:/Asura-Engine/Asura/src/Asura/Renderer/Texture.cppE:/Asura-Engine/Asura/src/Asura/Renderer/UniformBuffer.cppE:/Asura-Engine/Asura/src/Asura/Renderer/VertexArray.cppE:/Asura-Engine/Asura/src/Asura/Scene/Components.cppE:/Asura-Engine/Asura/src/Asura/Scene/Entity.cppE:/Asura-Engine/Asura/src/Asura/Scene/Scene.cppE:/Asura-Engine/Asura/src/Asura/Scene/SceneCamera.cppE:/Asura-Engine/Asura/src/Asura/Scene/SceneSerializer.cppE:/Asura-Engine/Asura/src/Asura/Scene/ScriptableEntity.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLBuffer.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLContext.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLFrameBuffer.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLRendererAPI.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLShader.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLTexture.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLUniformBuffer.cppE:/Asura-Engine/Asura/src/Platform/OpenGL/OpenGLVertexArray.cppE:/Asura-Engine/Asura/src/Platform/Windows/WindowsInput.cppE:/Asura-Engine/Asura/src/Platform/Windows/WindowsPlatformUtils.cppE:/Asura-Engine/Asura/src/Platform/Windows/WindowsWindow.cpp
+-- yamll E:/Asura-Engine/vendor/YAML_CPP/lib
+-- root This is BINARY dir E:/Asura-Engine/cmake-build-release
+-- root This is SOURCE dir E:/Asura-Engine
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Asura-Engine/cmake-build-release

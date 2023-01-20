@@ -14,13 +14,14 @@ ADD_SUBDIRECTORY(Asura)
 ADD_SUBDIRECTORY(Sandbox)
 ADD_SUBDIRECTORY(Asura-Editor)
 
-find_library(ASURA libAsura.dll.a ${PROJECT_SOURCE_DIR}/build)
-find_library(GLEW glew32s ${PROJECT_SOURCE_DIR}/build)
-find_library(YAML libyaml-cpp.a ${PROJECT_SOURCE_DIR}/build)
+find_library(ASURA libAsura.dll.a ${PROJECT_SOURCE_DIR}/cmake-build-release)
+#find_library(GLEW glew32s ${PROJECT_SOURCE_DIR}/cmake-build-release)
+
+find_package(yaml-cpp PATHS vendor/YAML_CPP)
+
+find_package(box2d PATHS vendor/box2d)
+
+MESSAGE(STATUS "yamll " ${YAML_CPP_LIBRARY_DIR})
 
 message(STATUS "root This is BINARY dir " ${PROJECT_BINARY_DIR})
 message(STATUS "root This is SOURCE dir " ${PROJECT_SOURCE_DIR})
-
-message(STATUS "Asura " ${ASURA})
-message(STATUS "Glew " ${GLEW})
-message(STATUS "Yaml " ${YAML})

@@ -25,6 +25,7 @@ struct VertexOutput
 layout (location = 0) out VertexOutput Output;
 layout (location = 3) out flat float v_TexIndex;
 layout (location = 4) out flat int v_EntityID;
+layout (location = 5) out vec3 v_Color;
 
 void main()
 {
@@ -34,6 +35,7 @@ void main()
     v_TexIndex = a_TexIndex;
     v_EntityID = a_EntityID;
     gl_Position = u_ViewProjection * vec4(a_Position, 1.0);
+    v_Color = vec3(100, 100, 100);
 }
 
 #type fragment
@@ -52,14 +54,15 @@ struct VertexOutput
 layout(location = 0) in VertexOutput Input;
 layout(location = 3) in flat float v_TexIndex;
 layout(location = 4) in flat int v_EntityID;
+layout (location = 5) in vec3 v_Color;
 
 layout (binding = 0) uniform sampler2D u_Textures[32];
 
 void main()
 {
-    vec4 texColor = Input.Color;
+    vec4 texColor;
     switch(int(v_TexIndex)) {
-//        case  0: texColor *= texture(u_Textures[ 0], Input.TexCoord * Input.TilingFactor); break;
+        case  0: texColor = Input.Color;
         case  1: texColor *= texture(u_Textures[ 1], Input.TexCoord * Input.TilingFactor); break;
         case  2: texColor *= texture(u_Textures[ 2], Input.TexCoord * Input.TilingFactor); break;
         case  3: texColor *= texture(u_Textures[ 3], Input.TexCoord * Input.TilingFactor); break;
@@ -92,9 +95,6 @@ void main()
         case 30: texColor *= texture(u_Textures[30], Input.TexCoord * Input.TilingFactor); break;
         case 31: texColor *= texture(u_Textures[31], Input.TexCoord * Input.TilingFactor); break;
     }
-
-    if(texColor.a == 0.0)
-        discard;
 
     o_Color = texColor;
     o_EntityID = v_EntityID;

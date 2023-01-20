@@ -29,7 +29,7 @@ void Asura::SceneHierarchyPanel::onImGuiRender() {
 
         if(ImGui::BeginPopupContextWindow(nullptr, 1)) {
             if(ImGui::MenuItem("Create empty entity")) {
-                m_context->createEntity("NewEntity");
+                m_selectionContext = m_context->createEntity("NewEntity");
             }
             ImGui::EndPopup();
         }

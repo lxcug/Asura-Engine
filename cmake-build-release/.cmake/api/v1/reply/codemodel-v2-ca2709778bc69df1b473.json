@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Asura",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Asura-Release-93a71a548dd2cfb3606d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Asura"
+				},
+				{
+					"build" : "Asura/src",
+					"jsonFile" : "directory-Asura.src-Release-76c50ec37f81ffa6a40d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Asura/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Sandbox",
+					"jsonFile" : "directory-Sandbox-Release-5f4392a0e5eaed8a8ee6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sandbox",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Asura-Editor",
+					"jsonFile" : "directory-Asura-Editor-Release-5674a3750f443dc982b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Asura-Editor",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Asura::@ec4add16633876d544ba",
+					"jsonFile" : "target-Asura-Release-b60f29450031b4ca4316.json",
+					"name" : "Asura",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Asura-Editor::@ebb337c3601b68515ffd",
+					"jsonFile" : "target-Asura-Editor-Release-3db7b34bdf56f36f76f3.json",
+					"name" : "Asura-Editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Sandbox::@df4fa095c2a3dbacf8fe",
+					"jsonFile" : "target-Sandbox-Release-a0a45c95bddfd0b94704.json",
+					"name" : "Sandbox",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Asura-Engine/cmake-build-release",
+		"source" : "E:/Asura-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

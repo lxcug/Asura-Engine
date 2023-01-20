@@ -39,10 +39,11 @@ void Sandbox2D::onUpdate(Asura::Timestep timestep) {
 
         static float rotation = 0.f;
         rotation += timestep * 50.f;
+        ASURA_INFO("rotation {}", rotation);
 
         Renderer2D::beginScene(m_cameraController->getCamera());
 
-        static glm::vec4 color = {0.6f, .3f, .5f, .5f};
+        static glm::vec4 color = {0.6f, .3f, .5f, .3f};
         for (float y = -5.0f; y < 5.0f; y += 0.5f)
         {
             for (float x = -5.0f; x < 5.0f; x += 0.5f)
@@ -52,7 +53,7 @@ void Sandbox2D::onUpdate(Asura::Timestep timestep) {
         }
 
         for(int i = 0; i < 90; i += 90/5) {
-            Renderer2D::drawRotateQuad({0.f, 0.f}, {0.5f, 0.5f}, glm::radians(i+rotation), m_color);
+            Renderer2D::drawRotateQuad({0.f, 0.f}, {1.f, 1.f}, glm::radians(i+rotation), m_color);
         }
 
         Renderer2D::endScene();
